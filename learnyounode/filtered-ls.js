@@ -32,3 +32,5 @@ function validateExtFilter (err, list) {
 }
 
 fs.readdir(filePath, validateExtFilter) // read filePath first, then call the validateExtFilter(). printing is done in the validateExtFilter()
+
+// some comment
